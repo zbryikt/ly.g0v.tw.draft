@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+}
+
+.block {
+  margin: 10px 10px 50px 10px;
+  padding: 0 0 40px 0;
+  border-bottom: 1px dashed #999;
+}
+
+.mly-seat {
+  /*stroke: #f00*/
+  cursor: pointer;
+}
+
+.mly-vote {
+  font-family: arial;
+}
+.mly-name {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#nuke, #madcow {
+  height:360px;
+  /*border: 1px solid #999;
+  box-shadow: 0px 5px 8px #999;
+  border-radius: 9px;*/
+}
+
+#vote-area {
+  height:288px;
+  border: 1px solid #999;
+  box-shadow: 0px 5px 8px #999;
+  border-radius: 9px;
+  float:left;
+  margin: 0 10px 0 0;
+}
